@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31586DBAC92E14FE508AB0F1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 016377569EDFB1B7D158C6FB /* libPods.a */; };
+		624E56491BDCBA6D005F3C4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E56481BDCBA6D005F3C4C /* main.m */; };
+		624E564C1BDCBA6D005F3C4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E564B1BDCBA6D005F3C4C /* AppDelegate.m */; };
+		624E56521BDCBA6D005F3C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624E56501BDCBA6D005F3C4C /* Main.storyboard */; };
+		624E56541BDCBA6D005F3C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624E56531BDCBA6D005F3C4C /* Assets.xcassets */; };
+		624E56571BDCBA6D005F3C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624E56551BDCBA6D005F3C4C /* LaunchScreen.storyboard */; };
+		624E56621BDCBA6D005F3C4C /* FISFlashyTableViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E56611BDCBA6D005F3C4C /* FISFlashyTableViewsTests.m */; };
+		624E566D1BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E566C1BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.m */; };
+		624E567C1BDD850B005F3C4C /* FISFlashyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E567B1BDD850B005F3C4C /* FISFlashyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		624E56821BDD9BF4005F3C4C /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624E56811BDD9BF4005F3C4C /* CustomCell.m */; settings = {ASSET_TAGS = (); }; };
+		624E56871BDDA470005F3C4C /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 624E56831BDDA470005F3C4C /* list@2x.png */; settings = {ASSET_TAGS = (); }; };
+		624E56881BDDA470005F3C4C /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 624E56841BDDA470005F3C4C /* cross@2x.png */; settings = {ASSET_TAGS = (); }; };
+		624E56891BDDA470005F3C4C /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 624E56851BDDA470005F3C4C /* clock@2x.png */; settings = {ASSET_TAGS = (); }; };
+		624E568A1BDDA470005F3C4C /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 624E56861BDDA470005F3C4C /* check@2x.png */; settings = {ASSET_TAGS = (); }; };
+		624E568C1BDDA503005F3C4C /* early_morning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624E568B1BDDA503005F3C4C /* early_morning.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		624E565E1BDCBA6D005F3C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624E563C1BDCBA6D005F3C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624E56431BDCBA6D005F3C4C;
+			remoteInfo = FISFlashyTableViews;
+		};
+		624E56691BDCBA6D005F3C4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624E563C1BDCBA6D005F3C4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624E56431BDCBA6D005F3C4C;
+			remoteInfo = FISFlashyTableViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016377569EDFB1B7D158C6FB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2731DA2270AF161B2FF28234 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		33CBC15E7F37A3CD6AF5252B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		624E56441BDCBA6D005F3C4C /* FISFlashyTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FISFlashyTableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		624E56481BDCBA6D005F3C4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		624E564A1BDCBA6D005F3C4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		624E564B1BDCBA6D005F3C4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		624E56511BDCBA6D005F3C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		624E56531BDCBA6D005F3C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		624E56561BDCBA6D005F3C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		624E56581BDCBA6D005F3C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624E565D1BDCBA6D005F3C4C /* FISFlashyTableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FISFlashyTableViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624E56611BDCBA6D005F3C4C /* FISFlashyTableViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISFlashyTableViewsTests.m; sourceTree = "<group>"; };
+		624E56631BDCBA6D005F3C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624E56681BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FISFlashyTableViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624E566C1BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISFlashyTableViewsUITests.m; sourceTree = "<group>"; };
+		624E566E1BDCBA6D005F3C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624E567A1BDD850B005F3C4C /* FISFlashyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISFlashyTableViewController.h; sourceTree = "<group>"; };
+		624E567B1BDD850B005F3C4C /* FISFlashyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISFlashyTableViewController.m; sourceTree = "<group>"; };
+		624E56801BDD9BF4005F3C4C /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		624E56811BDD9BF4005F3C4C /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		624E56831BDDA470005F3C4C /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		624E56841BDDA470005F3C4C /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		624E56851BDDA470005F3C4C /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		624E56861BDDA470005F3C4C /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		624E568B1BDDA503005F3C4C /* early_morning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = early_morning.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624E56411BDCBA6D005F3C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31586DBAC92E14FE508AB0F1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E565A1BDCBA6D005F3C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E56651BDCBA6D005F3C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022A3E677168BD328F5B88E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33CBC15E7F37A3CD6AF5252B /* Pods.debug.xcconfig */,
+				2731DA2270AF161B2FF28234 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F580E9566CD806B24885849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				016377569EDFB1B7D158C6FB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		624E563B1BDCBA6D005F3C4C = {
+			isa = PBXGroup;
+			children = (
+				624E56461BDCBA6D005F3C4C /* FISFlashyTableViews */,
+				624E56601BDCBA6D005F3C4C /* FISFlashyTableViewsTests */,
+				624E566B1BDCBA6D005F3C4C /* FISFlashyTableViewsUITests */,
+				624E56451BDCBA6D005F3C4C /* Products */,
+				022A3E677168BD328F5B88E7 /* Pods */,
+				2F580E9566CD806B24885849 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		624E56451BDCBA6D005F3C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624E56441BDCBA6D005F3C4C /* FISFlashyTableViews.app */,
+				624E565D1BDCBA6D005F3C4C /* FISFlashyTableViewsTests.xctest */,
+				624E56681BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624E56461BDCBA6D005F3C4C /* FISFlashyTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				624E564A1BDCBA6D005F3C4C /* AppDelegate.h */,
+				624E564B1BDCBA6D005F3C4C /* AppDelegate.m */,
+				624E567A1BDD850B005F3C4C /* FISFlashyTableViewController.h */,
+				624E567B1BDD850B005F3C4C /* FISFlashyTableViewController.m */,
+				624E56801BDD9BF4005F3C4C /* CustomCell.h */,
+				624E56811BDD9BF4005F3C4C /* CustomCell.m */,
+				624E56501BDCBA6D005F3C4C /* Main.storyboard */,
+				624E56531BDCBA6D005F3C4C /* Assets.xcassets */,
+				624E56551BDCBA6D005F3C4C /* LaunchScreen.storyboard */,
+				624E56581BDCBA6D005F3C4C /* Info.plist */,
+				624E56831BDDA470005F3C4C /* list@2x.png */,
+				624E56841BDDA470005F3C4C /* cross@2x.png */,
+				624E56851BDDA470005F3C4C /* clock@2x.png */,
+				624E56861BDDA470005F3C4C /* check@2x.png */,
+				624E568B1BDDA503005F3C4C /* early_morning.jpg */,
+				624E56471BDCBA6D005F3C4C /* Supporting Files */,
+			);
+			path = FISFlashyTableViews;
+			sourceTree = "<group>";
+		};
+		624E56471BDCBA6D005F3C4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624E56481BDCBA6D005F3C4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		624E56601BDCBA6D005F3C4C /* FISFlashyTableViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				624E56611BDCBA6D005F3C4C /* FISFlashyTableViewsTests.m */,
+				624E56631BDCBA6D005F3C4C /* Info.plist */,
+			);
+			path = FISFlashyTableViewsTests;
+			sourceTree = "<group>";
+		};
+		624E566B1BDCBA6D005F3C4C /* FISFlashyTableViewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				624E566C1BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.m */,
+				624E566E1BDCBA6D005F3C4C /* Info.plist */,
+			);
+			path = FISFlashyTableViewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624E56431BDCBA6D005F3C4C /* FISFlashyTableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624E56711BDCBA6D005F3C4C /* Build configuration list for PBXNativeTarget "FISFlashyTableViews" */;
+			buildPhases = (
+				EAD8E2A1FA343671CFFEE0BE /* Check Pods Manifest.lock */,
+				624E56401BDCBA6D005F3C4C /* Sources */,
+				624E56411BDCBA6D005F3C4C /* Frameworks */,
+				624E56421BDCBA6D005F3C4C /* Resources */,
+				C418925C37DFB882486E572D /* Embed Pods Frameworks */,
+				B18B7C604FD123C27CF06D56 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FISFlashyTableViews;
+			productName = FISFlashyTableViews;
+			productReference = 624E56441BDCBA6D005F3C4C /* FISFlashyTableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		624E565C1BDCBA6D005F3C4C /* FISFlashyTableViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624E56741BDCBA6D005F3C4C /* Build configuration list for PBXNativeTarget "FISFlashyTableViewsTests" */;
+			buildPhases = (
+				624E56591BDCBA6D005F3C4C /* Sources */,
+				624E565A1BDCBA6D005F3C4C /* Frameworks */,
+				624E565B1BDCBA6D005F3C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624E565F1BDCBA6D005F3C4C /* PBXTargetDependency */,
+			);
+			name = FISFlashyTableViewsTests;
+			productName = FISFlashyTableViewsTests;
+			productReference = 624E565D1BDCBA6D005F3C4C /* FISFlashyTableViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		624E56671BDCBA6D005F3C4C /* FISFlashyTableViewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624E56771BDCBA6D005F3C4C /* Build configuration list for PBXNativeTarget "FISFlashyTableViewsUITests" */;
+			buildPhases = (
+				624E56641BDCBA6D005F3C4C /* Sources */,
+				624E56651BDCBA6D005F3C4C /* Frameworks */,
+				624E56661BDCBA6D005F3C4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624E566A1BDCBA6D005F3C4C /* PBXTargetDependency */,
+			);
+			name = FISFlashyTableViewsUITests;
+			productName = FISFlashyTableViewsUITests;
+			productReference = 624E56681BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624E563C1BDCBA6D005F3C4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Guang;
+				TargetAttributes = {
+					624E56431BDCBA6D005F3C4C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					624E565C1BDCBA6D005F3C4C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 624E56431BDCBA6D005F3C4C;
+					};
+					624E56671BDCBA6D005F3C4C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 624E56431BDCBA6D005F3C4C;
+					};
+				};
+			};
+			buildConfigurationList = 624E563F1BDCBA6D005F3C4C /* Build configuration list for PBXProject "FISFlashyTableViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 624E563B1BDCBA6D005F3C4C;
+			productRefGroup = 624E56451BDCBA6D005F3C4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624E56431BDCBA6D005F3C4C /* FISFlashyTableViews */,
+				624E565C1BDCBA6D005F3C4C /* FISFlashyTableViewsTests */,
+				624E56671BDCBA6D005F3C4C /* FISFlashyTableViewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624E56421BDCBA6D005F3C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E56881BDDA470005F3C4C /* cross@2x.png in Resources */,
+				624E56871BDDA470005F3C4C /* list@2x.png in Resources */,
+				624E56571BDCBA6D005F3C4C /* LaunchScreen.storyboard in Resources */,
+				624E56891BDDA470005F3C4C /* clock@2x.png in Resources */,
+				624E56541BDCBA6D005F3C4C /* Assets.xcassets in Resources */,
+				624E56521BDCBA6D005F3C4C /* Main.storyboard in Resources */,
+				624E568C1BDDA503005F3C4C /* early_morning.jpg in Resources */,
+				624E568A1BDDA470005F3C4C /* check@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E565B1BDCBA6D005F3C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E56661BDCBA6D005F3C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B18B7C604FD123C27CF06D56 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C418925C37DFB882486E572D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD8E2A1FA343671CFFEE0BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624E56401BDCBA6D005F3C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E567C1BDD850B005F3C4C /* FISFlashyTableViewController.m in Sources */,
+				624E564C1BDCBA6D005F3C4C /* AppDelegate.m in Sources */,
+				624E56821BDD9BF4005F3C4C /* CustomCell.m in Sources */,
+				624E56491BDCBA6D005F3C4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E56591BDCBA6D005F3C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E56621BDCBA6D005F3C4C /* FISFlashyTableViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624E56641BDCBA6D005F3C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624E566D1BDCBA6D005F3C4C /* FISFlashyTableViewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624E565F1BDCBA6D005F3C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624E56431BDCBA6D005F3C4C /* FISFlashyTableViews */;
+			targetProxy = 624E565E1BDCBA6D005F3C4C /* PBXContainerItemProxy */;
+		};
+		624E566A1BDCBA6D005F3C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624E56431BDCBA6D005F3C4C /* FISFlashyTableViews */;
+			targetProxy = 624E56691BDCBA6D005F3C4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		624E56501BDCBA6D005F3C4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624E56511BDCBA6D005F3C4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		624E56551BDCBA6D005F3C4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624E56561BDCBA6D005F3C4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		624E566F1BDCBA6D005F3C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		624E56701BDCBA6D005F3C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		624E56721BDCBA6D005F3C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CBC15E7F37A3CD6AF5252B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISFlashyTableViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISFlashyTableViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		624E56731BDCBA6D005F3C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2731DA2270AF161B2FF28234 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISFlashyTableViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISFlashyTableViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		624E56751BDCBA6D005F3C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FISFlashyTableViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISFlashyTableViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISFlashyTableViews.app/FISFlashyTableViews";
+			};
+			name = Debug;
+		};
+		624E56761BDCBA6D005F3C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FISFlashyTableViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISFlashyTableViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISFlashyTableViews.app/FISFlashyTableViews";
+			};
+			name = Release;
+		};
+		624E56781BDCBA6D005F3C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FISFlashyTableViewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISFlashyTableViewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FISFlashyTableViews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		624E56791BDCBA6D005F3C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FISFlashyTableViewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISFlashyTableViewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FISFlashyTableViews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624E563F1BDCBA6D005F3C4C /* Build configuration list for PBXProject "FISFlashyTableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624E566F1BDCBA6D005F3C4C /* Debug */,
+				624E56701BDCBA6D005F3C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624E56711BDCBA6D005F3C4C /* Build configuration list for PBXNativeTarget "FISFlashyTableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624E56721BDCBA6D005F3C4C /* Debug */,
+				624E56731BDCBA6D005F3C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624E56741BDCBA6D005F3C4C /* Build configuration list for PBXNativeTarget "FISFlashyTableViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624E56751BDCBA6D005F3C4C /* Debug */,
+				624E56761BDCBA6D005F3C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624E56771BDCBA6D005F3C4C /* Build configuration list for PBXNativeTarget "FISFlashyTableViewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624E56781BDCBA6D005F3C4C /* Debug */,
+				624E56791BDCBA6D005F3C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624E563C1BDCBA6D005F3C4C /* Project object */;
+}
