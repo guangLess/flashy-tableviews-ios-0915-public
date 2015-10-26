@@ -12,8 +12,6 @@
 #import <SWTableViewCell.h>
 #import "UIScrollView+APParallaxHeader.h"
 
-//#import "UMTableViewCell.h"
-
 @interface FISFlashyTableViewController ()
 @end
 
@@ -22,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.tableView addParallaxWithImage:[UIImage imageNamed:@"early_morning.jpg"] andHeight:200];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,16 +38,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *cellIdentifier = @"CustomCell";
-    
     CustomCell *cell = (CustomCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    
     cell.leftUtilityButtons = [self leftButtons];
     cell.rightUtilityButtons = [self rightButtons];
     cell.delegate = self;
-    cell.customLable.text = @"Some Text";
-    //cell.image.contentMode = UIViewContentModeScaleAspectFit;
-    cell.image.image = [UIImage imageNamed:@"early_morning.jpg"];
-    
+    cell.customLable.text = [NSString stringWithFormat:@"Some Text at index %lu",indexPath.row];
     
     return cell;
 }
@@ -82,6 +76,23 @@
                                                 icon:[UIImage imageNamed:@"list.png"]];
     
     return leftUtilityButtons;
+}
+
+-(void)swipeableTableViewCell:(SWTableViewCell *)cell didTriggerRightUtilityButtonWithIndex:(NSInteger)index{
+    
+    switch (index) {
+        case 0:
+        {
+            NSLog(@"More button was pressed");
+            UIAlertView *alertTest = [[UIAlertView alloc] initWithTitle:@"More" message:@"oh NO MORE" delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles: nil];
+            [alertTest show];
+            
+            [cell hideUtilityButtonsAnimated:YES];
+            break;
+        }
+               default:
+            break;
+    }
 }
 
 // Override to support conditional editing of the table view.
